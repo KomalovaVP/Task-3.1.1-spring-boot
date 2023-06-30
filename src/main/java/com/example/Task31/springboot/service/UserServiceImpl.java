@@ -1,6 +1,5 @@
 package com.example.Task31.springboot.service;
 
-
 import com.example.Task31.springboot.dao.UserDao;
 import com.example.Task31.springboot.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
