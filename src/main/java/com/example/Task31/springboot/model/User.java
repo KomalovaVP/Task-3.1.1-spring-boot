@@ -1,12 +1,10 @@
 package com.example.Task31.springboot.model;
 
-
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "users")
 public class User {
-
 
     @Id
     @Column(name= "id")

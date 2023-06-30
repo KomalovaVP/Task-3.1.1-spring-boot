@@ -1,6 +1,5 @@
 package com.example.Task31.springboot.controller;
 
-
 import com.example.Task31.springboot.model.User;
 import com.example.Task31.springboot.service.UserService;
 import org.springframework.stereotype.Controller;
@@ -60,4 +59,5 @@ public class UsersController {
         userService.deleteUser(id);
         return "redirect:/users";
     }
+
 }
